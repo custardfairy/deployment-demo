@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', function(req, res) {
     // the following makes index.html run on a server
-    res.sendFile(path.join(__dirname + '../index.html'))
+    res.sendFile(path.join(__dirname, "../index.html"));
 })
 
 // gets the port from heroku, or uses 4005
